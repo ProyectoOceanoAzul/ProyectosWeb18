@@ -530,6 +530,7 @@ span.donacion a:hover{
 
 
     /**************************************/
+
     /*Responsive*/   
     div.about__fila1 div.lado1{
         float: none;
@@ -559,6 +560,10 @@ span.donacion a:hover{
         height: 100%;
     }
 
+    section.contenedor__about{
+        height: 100vh;
+    }
+
 
     /**************************************/
     /*Responsive*/
@@ -566,7 +571,6 @@ span.donacion a:hover{
         font-size: 2rem;
         padding-top: 0px;
     }
-
 
 }
 
@@ -577,6 +581,14 @@ span.donacion a:hover{
 
     section.contenedor__banner{
         height: 80vh;
+    }
+
+    section.contenedor__about{
+        height: 100vh;
+    }
+
+    section.contenedor__contact{
+        height: 100vh;
     }
 
 
@@ -596,7 +608,15 @@ span.donacion a:hover{
     section.contenedor__banner{
         height: 80vh;
     }
+
+    section.contenedor__about{
+        height: 100vh;
+    }
     
+
+    section.contenedor__contact{
+        height: 100vh;
+    }
     div.banner h2.subtitulo{
         font-size: 6.5rem;        
     }
@@ -612,11 +632,48 @@ span.donacion a:hover{
         height: 80vh;
     }
 
-        div.banner h2.subtitulo{
+    section.contenedor__about{
+        height: 100vh;
+    }
+
+    section.contenedor__contact{
+        height: 100vh;
+    }
+
+
+
+    div.banner h2.subtitulo{
         font-size: 6.5rem;        
     }
 
 }
+
+
+
+
+/**************************************/
+/*Responsive*/
+@media  screen and  (max-width: 884px){
+
+    section.contenedor__banner{
+        height: 80vh;
+    }
+
+    section.contenedor__about{
+        height: 100vh;
+    }
+
+    section.contenedor__contact{
+        height: 100vh;
+    }
+
+
+    div.banner h2.subtitulo{
+        font-size: 6.5rem;        
+    }
+
+}
+
 
 
 
@@ -702,11 +759,5 @@ span.donacion a:hover{
     }
 
 }
-
-
-
-
-
-
 
 
