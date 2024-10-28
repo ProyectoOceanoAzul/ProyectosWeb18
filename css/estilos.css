@@ -1,0 +1,712 @@
+
+/*Google Fons       recomendable realizar la importacion del mismo archivo .css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+
+
+
+/*bootstrap Iconos*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+
+/*Para resetear*/
+*{
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    
+    /*
+        outline: 1px solid red;
+    */
+
+
+    -webkit-box-sizing: border-box;
+
+}
+
+
+
+html,
+body{
+
+
+    /*
+    font-family: "Merriweather", serif;
+    font-family: "Open Sans", sans-serif;
+    */
+
+    /*Estilo 1 de parrafo*/
+    font-family: "Roboto", sans-serif;
+
+
+    background-color: var(--colorEstilo1);
+
+    /*desplazamieento suave cuando se usa navevacion por ancla*/
+    scroll-behavior: smooth;
+
+}
+
+
+/*Estilos generales*/
+:root{
+
+    --colorEstilo1:#FFFFFF;
+    --colorEstilo2:#F9F9F9;
+    --colorEstilo3:#000000;
+
+    --colorEstilo4:#49FF85;
+    --colorEstilo5:#41E577;
+    
+
+
+}
+
+
+/*Estilos genraels*/
+
+h1, h2, h4{
+        font-family: "Racing Sans One", sans-serif;
+}
+
+
+
+
+
+h1{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 3.5rem;    
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--colorEstilo3);
+    text-transform: uppercase;
+}
+
+a:hover{
+    font-weight: bold; 
+    text-decoration: line-through;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 10px 0;
+
+}
+
+
+
+/*contenedor*/
+div.contenedor{
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 10px 0 10px;
+
+
+    overflow: auto; /********************************/
+}
+
+
+
+header.contenedor__header{
+    background-color: var(--colorEstilo4);
+}
+
+nav.contenedor__superior{
+    overflow: auto;
+
+    padding-bottom: 0;    
+
+    /*    padding: 20px;*/
+    margin: 0px 50px;
+    border: 1px solid var(--colorEstilo3);
+}
+
+
+div.superior__logo{
+    float: left;
+}
+
+div.superior__menu{
+    float: right;
+}
+
+div.superior__menu ul.menu__opciones{
+    list-style: none;
+}
+
+div.superior__menu ul.menu__opciones li{
+    float: left;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+
+
+
+/**************************************/
+section.contenedor__banner,
+section.contenedor__product,
+section.contenedor__about,
+section.contenedor__contact
+{
+    overflow: auto;
+    height: 100%;
+    text-align: center;
+    background-color: var(--colorEstilo4);
+}
+
+
+h3.titulo{
+    color: var(--colorEstilo1);
+}
+
+/*contenedor__banner*/
+div.banner h2.subtitulo{
+    font-size: 9.5rem;   
+}
+
+
+
+div.banner img{
+    height: 300px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+/**************************************/
+/*contenedor__product*/
+section.contenedor__product div.contenedor h3.titulo{
+    color: var(--colorEstilo1);
+    margin-bottom: 50px;
+}
+
+
+div.product__fila1,
+div.product__fila2
+{
+    border: 1px solid var(--colorEstilo3);
+    height: 450px;
+
+    padding: 40px 20px;
+    margin-bottom: 50px;
+}
+
+div.product__fila1 div.lado1{
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+div.product__fila1 div.lado2{
+    float: left;
+    width: 60%;
+    text-align: left;
+
+    padding: 80px 70px;
+}
+
+
+div.product__fila1 div.lado1 img,
+div.product__fila2 div.lado2 img
+{
+    width: 90%;   
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+
+
+
+div.product__fila2 div.lado1{
+    float: left;
+    width: 60%;
+    text-align: right;
+    padding: 80px 70px;
+}
+
+div.product__fila2 div.lado2{
+    float: left;
+    width: 40%;
+    text-align: right;
+
+}
+
+
+
+/**************************************/
+/*contenedor__about*/
+div.about__fila1 div.lado1{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+div.about__fila1 div.lado2{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+div.about__fila1 h4{
+    padding-top: 140px;
+    padding-bottom: 20px;
+    font-size: 4rem;
+}
+
+
+section.contenedor__about div.contenedor h3.titulo{
+    color: var(--colorEstilo1);
+    margin-bottom: 50px;
+}
+
+
+
+
+/**************************************/
+/*contenedor__contact*/
+div.contact__fila1 div.lado1{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+div.contact__fila1 div.lado2{
+    float: left;
+    width: 50%;
+    text-align: left;
+    padding: 20px;
+}
+
+
+
+div.contact__fila1 p{
+    padding-top: 200px;
+}
+
+
+section.contenedor__contact div.contenedor h3.titulo{
+    color: var(--colorEstilo1);
+    margin-bottom: 50px;
+}
+
+
+
+/**************************************/
+/*contact__formulario*/
+
+div.contact__fila1 div.lado2 form{
+    width: 100%;
+    margin: auto;
+}
+
+div.form__group{
+    margin-bottom: 1rem ;
+}
+
+form label{
+    display: block;
+    margin-bottom: 0.6rem;
+    font-weight: 400;
+    color: var(--colorEstilo3);
+}
+
+.form__control{
+    width: 100%;
+    background-color: var(--colorEstilo5);
+    color: var(--colorEstilo3);
+    font-weight: 300;
+}
+
+form input,
+form textarea{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+form textarea{
+    line-height: 1.4rem;
+}
+
+
+form button{
+    width: 100%;
+    padding: 10px 0;
+    background-color: var(--colorEstilo3);
+    color: var(--colorEstilo2);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover{
+    border: 1px solid var(--colorEstilo3);
+    background-color: var(--colorEstilo2);
+    color: var(--colorEstilo3);
+}
+
+
+
+
+
+/**************************************/
+/*contenedor__footer*/
+footer.contenedor__footer{
+    background-color: var(--colorEstilo3);
+}
+
+div.pie__titulo p{
+    text-align: center;
+    font-size: 11px;
+    padding: 10px 0;
+    margin: 10px 0;
+
+    color: var(--colorEstilo2);
+}
+
+span.autor
+{
+    color: var(--colorEstilo2);
+    font-weight: 600;
+}
+
+
+span.donacion a
+{
+    color: var(--colorEstilo2);
+    font-weight: 600;
+
+}
+
+span.donacion a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+/**************************************/
+/*Responsive*/
+@media only screen and  (max-width: 575.98px) and
+                        (max-width: 767.98px) and
+                        (max-width: 991.98px) and
+                        (max-width: 1199.98px) and
+                        (max-width: 1399.98px)
+
+{
+
+    div.contenedor{
+        padding: 10px 0;
+    }
+
+    div.superior__logo{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+
+    div.superior__menu{
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    div.superior__menu ul.menu__opciones li{
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+
+        div.superior__menu ul.menu__opciones li a{
+        text-align: center;
+        padding: 0;
+        font-size: 0.9rem;       
+    }
+
+
+
+
+    /**************************************/
+    /*Responsive*/
+    h3.titulo{
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    div.banner h2.subtitulo{
+        font-size: 2rem;
+    }
+
+
+
+
+    /**************************************/
+    /*Responsive*/
+
+    div.product__fila1,
+    div.product__fila2
+    {
+        height: 100%;
+    }
+
+
+
+
+    div.product__fila1 div.lado1{
+        float: none;
+        width: 50%;        
+    }
+
+    div.product__fila1 div.lado2{
+        float: none;
+        width: 100%;
+        padding: 10px;
+  
+    }
+
+
+    div.product__fila2 div.lado1{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+    div.product__fila2 div.lado2{
+        float: none;
+        width: 50%;
+        text-align: left;
+    }
+
+
+    h4{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+
+
+
+
+
+    /**************************************/
+    /*Responsive*/   
+    div.about__fila1 div.lado1{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    div.about__fila1 div.lado2{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+}
+
+
+
+
+
+/**************************************/
+/*Responsive*/
+@media  screen and  (max-width: 768px){
+
+    section.contenedor__banner{
+        height: 100%;
+    }
+
+
+    /**************************************/
+    /*Responsive*/
+    div.about__fila1 div.lado1 h4{
+        font-size: 2rem;
+        padding-top: 0px;
+    }
+
+
+}
+
+
+/**************************************/
+/*Responsive*/
+@media  screen and  (max-width: 800px){
+
+    section.contenedor__banner{
+        height: 80vh;
+    }
+
+
+    div.banner h2.subtitulo{
+        font-size: 6.5rem;        
+    }
+
+
+}
+
+
+
+/**************************************/
+/*Responsive*/
+@media  screen and  (max-width: 820px){
+
+    section.contenedor__banner{
+        height: 80vh;
+    }
+    
+    div.banner h2.subtitulo{
+        font-size: 6.5rem;        
+    }
+}
+
+
+
+/**************************************/
+/*Responsive*/
+@media  screen and  (max-width: 834px){
+
+    section.contenedor__banner{
+        height: 80vh;
+    }
+
+        div.banner h2.subtitulo{
+        font-size: 6.5rem;        
+    }
+
+}
+
+
+
+/**************************************/
+/*Responsive*/
+@media  screen and  (max-width: 1114px){
+
+    section.contenedor__banner{
+        height: 80vh;
+    }
+
+    div.banner h2.subtitulo{
+        font-size: 3.5rem;        
+    }
+
+
+
+    /*Responsive*/
+    div.about__fila1 div.lado1 h4{
+        font-size: 2rem;
+        padding-top: 0px;
+    }
+
+
+}
+
+/**************************************/
+/*Responsive*/
+@media screen and  (max-width: 320px)
+{
+
+    div.banner h2.subtitulo{
+        font-size: 2.5rem!important;        
+    }
+
+
+
+    div.contact__fila1 div.lado1{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    div.contact__fila1 div.lado2{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+
+    div.contact__fila1 p{
+        padding-top: 0;
+    }
+
+
+}
+
+
+/**************************************/
+/*Responsive*/
+@media screen and  (max-width: 360px){
+
+    
+    div.contact__fila1 div.lado1{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+    div.contact__fila1 div.lado2{
+        float: none;
+        width: 100%;
+        padding: 10px;
+    }
+
+
+
+    div.contact__fila1 p{
+        padding-top: 0;
+    }
+
+}
+
+
+
+
+
+
+
+

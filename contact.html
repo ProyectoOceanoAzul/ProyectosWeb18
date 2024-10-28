@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido 
+    <meta http-equiv="refresh" content="10" />
+    -->
+
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+<body>
+
+    <!-- contenedor header -->
+    <header class="contenedor__header" id="Home">
+
+        <!-- contenedor__superior -->
+        <nav class="contenedor__superior">
+
+            <div class="contenedor">
+
+                <!-- logo -->
+                <div class="superior__logo">
+                    <h1 class="logo__titulo">GL</h1>
+                </div>
+
+                <!-- menu -->
+                <div class="superior__menu">
+                    <ul class="menu__opciones">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" style="text-decoration: underline;">Contact</a></li>
+                    </ul>
+                </div>
+
+
+
+            </div>
+
+        </nav>
+
+
+
+
+    </header>
+
+    <!-- contenedor__about -->
+    <section class="contenedor__contact">
+
+        <div class="contenedor">
+
+            <!--  -->
+            <h3 class="titulo">
+                contact
+            </h3>
+
+
+            <div class="contact__fila1">
+
+                <div class="lado1">
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos fuga quod omnis, enim nostrum
+                        illum. Ut iure minima esse eveniet necessitatibus, quas ipsam aut voluptatum veritatis ad
+                        eligendi impedit temporibus non quo velit unde recusandae. Totam officiis dolor inventore
+                        officia nobis rem enim voluptatem? Dignissimos obcaecati blanditiis voluptas facilis nemo quasi
+                        fugit amet eos ullam, maiores exercitationem! Magni sapiente officia rem maiores quisquam
+                        dolores ipsam, temporibus architecto numquam soluta. Iure!
+                    </p>
+
+                </div>
+
+
+                <div class="lado2">
+
+                    <form action="#">
+                        <div class="form__group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" placeholder="Nombre" required="Yes"
+                                class="form__control">
+                        </div>
+
+
+                        <div class="form__group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Email" required="Yes"
+                                class="form__control">
+                        </div>
+
+
+                        <div class="form__group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"
+                                required="Yes" class="form__control"></textarea>
+                        </div>
+
+                        <button>Enviar</button>
+
+                    </form>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- pie -->
+    <footer class="contenedor__footer">
+        <div class="contenedor">
+
+            <div class="pie__titulo">
+                <p>
+                    &copy;2024, Derechos Reservados, Diseñado por
+                    <span class="autor">93R50N</span>
+
+                    <br>
+                    Cada aporte, por más pequeño que sea, puede marcar la diferencia en la vida de una persona.
+                    Donación:
+                    <span class="donacion">
+                        <a href="https://wa.link/5nawh3"> Plin o Yape</a>
+                    </span>
+                </p>
+
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+
+
+</html>
